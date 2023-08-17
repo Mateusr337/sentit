@@ -1,5 +1,14 @@
+.content-page {
+  width: calc(100vw - 60px);
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 30px;
+  justify-content: center;
+}
+
 .feed {
-  width: max-content;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 5px;

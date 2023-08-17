@@ -5,6 +5,8 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #292929;
   color: darkgray;
+  width: 100vw !important;
+  max-width: 100vw !important;
 }
 
 .bg-blue {
@@ -29,4 +31,9 @@ body {
   padding: 15px;
   border-radius: 10px;
   border: 1px solid #3A3E48;
+}
+
+.app-text-larger {
+  font-size: 18px;
+  font-weight: 500;
 }
